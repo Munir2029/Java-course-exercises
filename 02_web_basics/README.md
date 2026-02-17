@@ -1,5 +1,5 @@
 
-##Web Basics Exercises
+## Web Basics Exercises
 
 All tasks in this folder are exercises I worked on during my first practical web development course.
 
@@ -12,7 +12,7 @@ In these exercises, I learned the fundamentals of web development, including:
 - Basic JavaScript for interactivity
 - Working with different frameworks
 
-##Web Grundlagen – Übungen
+## Web Grundlagen – Übungen
 
 Alle Aufgaben in diesem Ordner stammen aus meinem ersten praktischen Webentwicklungs-Kurs.
 
