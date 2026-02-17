@@ -1,0 +1,759 @@
+
+/* =====================
+   GLOBAL - MOBILE FIRST
+===================== */
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* =====================
+   HEADER - MOBILE
+===================== */
+
+header {
+    background-color: #f6e7e499;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+    color: #e40995;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    transition: 0.9s ease;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.navigation a {
+    color: #e40995;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 10px;
+    transition: 0.9s ease;
+}
+
+.navigation a:hover {
+    transform: scale(1.2);
+
+}
+
+/* =====================
+   SECTIONS - MOBILE
+===================== */
+
+section {
+    padding: 80px 20px;
+}
+
+/* =====================
+   MAIN SECTION
+===================== */
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/munir-profile.JPG) no-repeat center / cover;
+    padding-top:33%;
+}
+
+.main h2 {
+    color: blanchedalmond;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.main h2 span {
+    display: inline-block;
+    color: black;
+    font-size: 1.2em;
+}
+
+.main h3 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.main-btn {
+    color: black;
+    background-color: #c8c8f3;
+    font-size: 1em;
+    font-weight: 800;
+    padding: 0.8em 1.8em;
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: 0.7s ease;
+    text-decoration: none;
+}
+
+.main-btn:hover {
+    background-color: mediumvioletred;
+    transform: scale(1.05);
+}
+
+/* =====================
+   SOCIAL LINKS
+===================== */
+
+.social-links a {
+    color: #eeeaef;
+    font-size: 1.3em;
+    padding-right: 15px;
+    transition: 0.7s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+.social-links a.linkedin:hover { color: #043cf6; }
+.social-links a.github:hover { color: black; }
+.social-links a.instagram:hover { color: red; }
+.social-links a.youtube:hover { color: red; }
+
+/* =====================
+   CARDS
+===================== */
+
+.cards {
+    background: #f6e7e4;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #1042e8;
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 90%;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px 0;
+    transition: 0.7s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    color: #0682f8;
+    font-size: 4em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #e40995;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.info p {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+/* =====================
+   PROJECTS
+===================== */
+
+.projects {
+    background: #f6e7e4;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    margin: 20px 0;
+    transition: 0.7s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
+.project-image img {
+    width: 100%;
+    border: solid 3px #e40995;
+}
+
+.project-category {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.project-title {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.project-title span {
+    color: #e40995;
+    font-size: 0.8em;
+    display: flex;
+}
+
+.more-details {
+    font-size: 0.7em;
+    text-decoration: none;
+    color: black;
+}
+
+.more-details:hover {
+    color: blue;
+}
+
+/* =====================
+   FOOTER
+===================== */
+
+.footer {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-title {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.footer a {
+    color: darkgrey;
+}
+
+/* =====================
+   TABLET
+===================== */
+
+@media (min-width: 768px) {
+
+    header {
+        padding: 10px 80px;
+    }
+
+    section {
+        padding: 100px 80px;
+    }
+
+    .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card,
+    .project-card {
+        width: 45%;
+        margin: 20px;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* =====================
+   LAPTOP / DESKTOP
+===================== */
+
+@media (min-width: 1024px) {
+
+    header {
+        padding: 10px 200px;
+    }
+
+    section {
+        padding: 100px 200px;
+    }
+
+    .navigation a {
+        font-size: 1.8em;
+        padding-left: 30px;
+    }
+
+    .logo {
+        font-size: 1.2em;
+    }
+
+    .card,
+    .project-card {
+        width: 21.25em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*0%:ich das nicht verschtanden ;*/
+/*100% ich habe das vestanden;*/
+/*ziel 60% ;*/
+/**!*/
+
+
+/** {*/
+/*    font-family: "Open Sans", sans-serif;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box; !*beim änderung von länge und breite von inenn (padding) border box tut sich anpassen*70%*!*/
+/*    scroll-behavior: smooth; !*flixebel scrollen-50%*!*/
+/*}*/
+
+/*header {*/
+/*    background-color: #f6e7e4;*/
+/*    width: 100%;*/
+/*    position: fixed; !* das block bleibt sichtbar trotz scorllen-50*!*/
+/*    z-index: 999; !*keine Anhung -0%*!*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: !*oben unten*! 10px !*R L*! 200px; !*die abstände von innen*!*/
+
+/*}*/
+
+/*.logo {*/
+/*    text-decoration: none; !*löscht die liene unter dem wort-100*!*/
+/*    color: #e40995;*/
+/*    text-transform: uppercase; !*alle Bochstaben werden groß 80*!*/
+/*    font-weight: 700; !*schrifft wird dicker*!*/
+/*    font-size: 1.2em; !*muss ich genu lernen-20%*!*/
+/*    transition: 0.9s ease;*/
+/*}*/
+
+/*.logo {*/
+/*    display: flex;*/
+/*    text-decoration: none; !*löscht die liene unter dem wort-100*!*/
+/*    color: #e40995;*/
+/*    text-transform: uppercase; !*alle Bochstaben werden groß 80*!*/
+/*    font-weight: 700; !*schrifft wird dicker*!*/
+/*    font-size: 1.2em; !*muss ich genu lernen-20%*!*/
+/*    transition: 0.9s ease;*/
+/*    justify-content: start;*/
+/*}*/
+
+/*.logo:hover {*/
+/*    transform: scale(1.8);*/
+/*    font-size:1.4em;*/
+
+/*}*/
+
+
+/*.navigation a {*/
+/*    color: #e40995;*/
+/*    text-decoration: none;*/
+/*    font-size: 1.8em;*/
+/*    font-weight: 400;*/
+/*    padding-left: 30px;*/
+/*    transition: 0.7s ease;*/
+
+/*}*/
+
+/*.navigation a:hover !*wenn die maus auf das kommt 80% *!*/
+/*{*/
+/*    color: #e40995;*/
+/*    transform: scale(1.1);*/
+/*    font-weight:800;*/
+/*    font-size: 2.2em;*/
+
+/*}*/
+
+/*section { !*section generel *!*/
+/*    padding: 100px 200px;*/
+/*}*/
+
+/*.main a {*/
+/*    color: #0080ff;*/
+/*}*/
+
+/*.main {*/
+
+/*    width: 100%;*/
+/*    min-height: 100vh; !*mindet lange 50%  vh 0% *!*/
+/*    display: flex;*/
+
+/*    align-items: center;*/
+/*    background: url(images/munir-profile.JPG) no-repeat;*/
+/*    !*das foto*/
+/*       wird nicht wiederolet wereden 50 *!*/
+
+/*    background-size: cover; !*das foto anpassen 20% *!*/
+/*    background-position: center;*/
+/*    background-attachment: fixed; !*Das foto beweget sich nicht beim scorllen 30% *!*/
+/*}*/
+
+/*.main h2 {*/
+/*    color: blanchedalmond;*/
+/*    font-size: 1.4em;*/
+/*    font-weight: 800;*/
+/*    text-align: left;*/
+/*}*/
+
+/*.main h2 span {*/
+/*    display: inline-block; !*span ist inline beim inline schreibma das um die margin änderen zu können 30% *!*/
+/*    margin: auto;*/
+/*    color: black;*/
+/*    font-size: 1.4em;*/
+/*}*/
+
+/*.main h3 {*/
+/*    color: white;*/
+/*    font-size: 1.8em;*/
+/*    font-weight: 700;*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*    letter-spacing: 1px; !*abstand zwichen die buchstaben *!*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.main-btn {*/
+/*    color: black;*/
+/*    text-decoration: none;*/
+/*    background-color: #c8c8f3;*/
+/*    font-size: 1.1em;*/
+/*    font-weight: 800;*/
+
+/*    padding: 0.9375em 2.1857em; !*muss ich lernen wie ich px zu em umzuwandelen *!*/
+/*    letter-spacing: 1px;*/
+/*    border-radius: 15px;*/
+/*    display: inline-block; !* ohne das, kann ich die margin nicht ändern weil (a)elment ist inllein block 60%*!*/
+/*    margin-bottom: 10px;*/
+/*    transition: 0.7s ease; !*die zeit änderung wenn du zeigst mit der maus auf etwas  50% *!*/
+
+/*}*/
+
+/*!* :hover bedutet wenn ich mit die maus auf das hinzeige oder drauf drucke 80% *!*/
+/*.main-btn:hover {*/
+/*    background-color: mediumvioletred;*/
+/*    transform: scale(1.1); !*wenn zeigst mit die maus wird 10% größer  75%*!*/
+/*}*/
+
+/*.social-links a {*/
+
+/*    color: #eeeaef;*/
+/*    font-size: 1.7em;*/
+/*    padding-right: 30px;*/
+/*    transition: 0.7s ease; !*wie schnell ändert sich das form wenn ich mit der maus zeige *!*/
+/*}*/
+
+/*.social-links a:hover {*/
+/*    transform: scale(1.1);*/
+/*    font-size: 2em;*/
+/*}*/
+
+/*.social-links a.linkedin:hover {*/
+/*    color: #043cf6;*/
+/*}*/
+
+/*.social-links a.github:hover {*/
+/*    color: black;*/
+/*}*/
+
+/*.social-links a.instagram:hover {*/
+/*    color: rgb(246, 3, 3); !*wie kann ich die untere siete mit orangene beferben*!*/
+/*}*/
+
+/*.social-links a.youtube:hover {*/
+/*    color: red;*/
+/*}*/
+
+/*.cards {*/
+/*    background: #f6e7e4;*/
+
+/*}*/
+
+/*.title {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    color: #1042e8;*/
+/*    font-size: 2.2em;*/
+/*    font-weight: 800;*/
+/*    margin-bottom: 30px;*/
+
+/*}*/
+
+/*.content {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+
+/*    !*normale weise ist no wrap .*/
+/*    wrap bedutet das die cards falss mehr werden dann werden automatisch unteinandere kommen oder sich anpassen dass sie sich nict nebeneinandere*!*/
+
+
+/*}*/
+
+/*.card {*/
+/*    background-color: white;*/
+/*    width: 21.25em;*/
+/*    box-shadow: 0 5px 25px rgba(1 1 1 /15%); !*ich muss das noch lernen 10%*!*/
+/*    border-radius: 20px;*/
+
+/*    padding: 25px;*/
+/*    margin: 20px;*/
+/*    transition-duration: 0.7s;*/
+
+/*}*/
+
+/*.card:hover {*/
+
+/*    transform: scale(1.1);*/
+
+/*}*/
+
+/*.icon {*/
+/*    color: #0682f8;*/
+/*    font-size: 6em;*/
+/*    text-align: center;*/
+
+/*}*/
+
+/*.info {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.info h3 {*/
+/*    color: #e40995;*/
+/*    font-size: 1.5em;*/
+/*    font-weight: 700;*/
+/*    margin: 5px;*/
+/*}*/
+
+/*.info p {*/
+
+/*    font-size: 1.2em;*/
+/*    font-weight: 1000;*/
+/*}*/
+
+/*.project-image img {*/
+
+/*    width: 100%;*/
+/*    color: #0682f8;*/
+/*    display: flex;*/
+/*   flex-direction: row;*/
+/*flex-wrap: nowrap;*/
+/*    border: solid 3px #e40995;*/
+
+
+
+/*}*/
+
+
+/*.project-title {*/
+/*    font-size: 2.4em;*/
+/*    font-weight: 800;*/
+
+/*}*/
+
+
+/*.projects {*/
+/*    background: #f6e7e4;*/
+
+
+/*}*/
+
+/*.projects .content {*/
+/*    background-color: #f6e7e4;*/
+/*    margin-top: 10px;*/
+
+/*}*/
+
+/*.project-card {*/
+/*    box-sizing: border-box;*/
+/*    background-color: white;*/
+
+/*    border-radius: 20px;*/
+/*    padding: 30px;*/
+/*    min-height: 14em; !*mindeste laänge*!*/
+/*    width: 23em;*/
+/*    margin: 30px;*/
+/*    !*overflow:scroll;                    !*??????????    30%*!*/
+/*    transition-duration: 0.7s ;*/
+
+
+/*}*/
+
+/*.project-card:hover {*/
+/*    transform: scale(1.1);*/
+
+
+/*}*/
+/*.project-card:hover .project-image  {*/
+
+/*    opacity: 0.8;*/
+/*}*/
+
+/*.project-category {*/
+/*    font-size: 1.4em;*/
+/*    font-weight: 1000;*/
+/*    color: black;*/
+/*}*/
+
+
+
+
+
+
+
+
+/*.project-image img {*/
+/*    width: 50%;*/
+
+
+/*}*/
+
+/*.more-details {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*   color:black;*/
+/*    font-size: 0.5em;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.more-details:hover {*/
+
+/*    color: blue;*/
+/*}*/
+
+/*.project-title span {*/
+/*color: #e40995;*/
+/*    font-size: 0.8em;*/
+/*    display:flex;*/
+/*    justify-content: flex-start;*/
+
+/*}*/
+/*.project-title span i{*/
+/*    color:#e40995;*/
+
+/*}*/
+
+/*.projects .content .project-card .project-image {*/
+/*display: flex;*/
+/*flex-direction: row;*/
+/*    flex-wrap: nowrap;*/
+/*    color: black;*/
+/*}*/
+
+/*.footer{*/
+/*    background-color: beige;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+
+/*}*/
+/*.footer-title{*/
+/*    font-size:1.2em;*/
+/*    font-weight: 600;*/
+/*}*/
+/*.footer a {*/
+/*    color: darkgrey;*/
+
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
