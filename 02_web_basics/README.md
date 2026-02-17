@@ -1,26 +1,39 @@
+# Web Development Exercises
 
-## Web Basics Exercises
+This folder contains my first practical exercises in web development.
 
-All tasks in this folder are exercises I worked on during my first practical web development course.
+Here I applied and improved my knowledge of HTML, CSS, and JavaScript.
 
-These are my first projects using HTML, CSS, and JavaScript.
-Everything here is written by me, and I will continue improving and refining the code over time.
+## Content
 
-In these exercises, I learned the fundamentals of web development, including:
-- HTML structure and semantic elements
-- CSS styling and layout techniques
-- Basic JavaScript for interactivity
-- Working with different frameworks
+- Structuring websites with HTML  
+- Styling and design with CSS  
+- Modern layout and structuring techniques  
+- Responsive web design  
+- Basic JavaScript fundamentals  
 
-## Web Grundlagen – Übungen
+## Goal
 
-Alle Aufgaben in diesem Ordner stammen aus meinem ersten praktischen Webentwicklungs-Kurs.
+This project documents my entry into frontend development.  
+The code will be continuously improved and further developed.
 
-Das sind meine ersten Projekte mit HTML, CSS und JavaScript.
-Der gesamte Code wurde von mir selbst geschrieben und ich werde ihn in Zukunft weiter verbessern und optimieren.
 
-In diesen Übungen habe ich die Grundlagen der Webentwicklung gelernt, darunter:
-- HTML-Struktur und semantische Elemente
-- CSS-Design und Layout-Techniken
-- Grundlegende JavaScript-Interaktivität
-- Arbeiten mit verschiedenen Frameworks
+
+# Webentwicklungs-Übungen
+
+Dieser Ordner enthält meine ersten praktischen Übungen im Bereich Webentwicklung.
+
+Hier habe ich meine Kenntnisse in HTML, CSS und JavaScript angewendet und vertieft.
+
+## Inhalte
+
+- Strukturierung von Webseiten mit HTML  
+- Gestaltung und Styling mit CSS  
+- Moderne Layout- und Strukturierungstechniken  
+- Responsive Webdesign  
+- JavaScript-Grundlagen  
+
+## Ziel
+
+Dieses Projekt dokumentiert meinen Einstieg in die Frontend-Entwicklung.  
+Der Code wird kontinuierlich verbessert und weiterentwickelt.
