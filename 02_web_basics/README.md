@@ -20,7 +20,7 @@ Das sind meine ersten Projekte mit HTML, CSS und JavaScript.
 Der gesamte Code wurde von mir selbst geschrieben und ich werde ihn in Zukunft weiter verbessern und optimieren.
 
 In diesen Übungen habe ich die Grundlagen der Webentwicklung gelernt, darunter:
-- HTML-Struktur und semantische Elemente
+-- HTML-Struktur und semantische Elemente
 - CSS-Design und Layout-Techniken
 - Grundlegende JavaScript-Interaktivität
 - Arbeiten mit verschiedenen Frameworks
